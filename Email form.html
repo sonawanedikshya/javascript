@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="n">
+<head>
+<title> E-mail Draft </title>
+<style>
+body {
+text-align: center;
+}
+</style>
+<script src="email.js"></script>
+</head>
+<body style="background-color:violet;">
+<h2 id="heading" aria-live="polite "></h2>
+<div id="sub">
+<h1> Compose email </h1> 
+<form>
+<label for="email"> To: </label>
+<input id="email" type="email" autocomplete="email"> 
+<br>
+<br>
+<label for="subject"> Subject </label>
+<input id="subject" type="text"> <br>
+<br>
+<label for="myfile"> Attachment: </label>
+  <input type="file" id="myfile" name="myfile"><br>
+<label for="mfile"> More attachment: </label>
+  <input type="file" id="mfile" name="myfile">
+<br>
+<br>
+<label for="message"> </label>
+<input id="message" type="text" placeholder="Message"> 
+<br>
+</form>
+<button id="button" onclick="press()"> Send </button>
+</div>
+</body>
+</html>
